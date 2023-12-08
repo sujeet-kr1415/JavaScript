@@ -66,18 +66,21 @@ const course = {
 }
 
 // course.courseInstructor
-
-const {courseInstructor: instructor} = course
-
+//const {courseInstructor}=course
 // console.log(courseInstructor);
+const {courseInstructor: instructor} = course
+// object destructuring == you need this when you want to print let coursename again and again
 console.log(instructor);
 
+
+// object form of json of apis
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
 //     "price": "free"
 // }
 
+// array form of json of apis
 [
     {},
     {},
