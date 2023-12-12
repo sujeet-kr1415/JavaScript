@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom | Jacascript</title>
+</head>
+<body style="background-color: #212121; color: #ffff;">
+    <div class="parent">
+        <!--this is a comment-->
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+<script>
+    const parent = document.querySelector(".parent")
+    console.log(parent);  // return class
+    console.log(parent.childrent); // return HTMLcollection
+    console.log(parent.childrent[1].innerHTML); // this return the element
+
+    // we can use classic for loop
+
+    for (let i = 0; i < parent.childrent.length; i++) {
+        console.log(parent.childrent[i].innerHTML); 
+        // Monday Tuesday Wednesday Thursday
+        
+    }
+    parent.childrent[1].style.color = "orange"
+    console.log(parent.frameElementChild);
+    console.log(parent.lastElementChild);
+
+    // in this way you can also find the parent
+    const dayOne = document.querySelector('.day') // return first one
+    console.log(dayOne); 
+    console.log(dayOne.parentElement); // give parent
+    console.log(dayOne.nextElementSibling);
+
+    // better way to do
+
+    console.log('NODES: ', parent.childNodes); // return 9 childNodes
+
+
+</script>
+</html>
