@@ -23,7 +23,7 @@ const dc_heros = ["superman", "batman","flash"]
 // console.log(allHeros);
 // [ 'thor', 'Ironman', 'Captain America', 'superman', 'batman', 'flash' ]
 
-// we can use "Spread method"
+// we can use "Spread method act as concat"
 const allNewHeros = [...marvel_heros, ...dc_heros]
 // console.log(allNewHeros);
 // [ 'thor', 'Ironman', 'Captain America', 'superman', 'batman', 'flash' ]
