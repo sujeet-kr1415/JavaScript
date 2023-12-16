@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+<body>
+    <h1>Sujeet and Javascript/h1>
+    <button id = "start">start</button>
+    <button id = "stop">stop</button>
+</body>
+<script>
+    document.getElementById('start').addEventListener('click',intervald)
+
+    const intervald = setInterval(sayHiDate, 2000)
+
+    const sayHiDate = function(){
+        document.querySelector('h1').innerHTML = "Jai shree ram"
+        console.log(Date.now());
+    }
+    
+    document.getElementById('stop').addEventListener('click', clearId);
+    const clearId = clearInterval(intervalId)
+
+</script>
+</html>
