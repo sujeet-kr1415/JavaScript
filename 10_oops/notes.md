@@ -1,19 +1,19 @@
-#javascript and classes
+# javascript and classes
 
-#OOP
+# OOP
 
-#Object
+# Object
 collection of properties and methods
 toLowerCase
 
-#Why use OOP
+# Why use OOP
 
-#parts of OOP
-##object literal
-Consturctor function
-Prototypes
-Classes
-Instances (new, this)
+# parts of OOP
+## object literal
+        Consturctor function
+        Prototypes
+        Classes
+        Instances (new, this)
 
-#4 pillars
-Abstraction Encapsulation Inheritance Polymorphism
+# 4 pillars
+    Abstraction Encapsulation Inheritance Polymorphism
